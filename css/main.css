@@ -1,0 +1,69 @@
+/* Global styles */
+body {
+      margin:50px;
+
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #f7f7fa;
+  color: #111827;
+}
+
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Intro section background */
+.intro-hero {
+  position: relative;
+  overflow: hidden; 
+
+  background-image: url("../img/background_img.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: clamp(3rem, 5vw, 4.5rem) 2rem;
+  border-radius: 0.9rem;
+
+  color: #f9fafb;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.25);
+}
+
+.intro-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top left, rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.8));
+  opacity: 0.9;
+}
+
+.intro-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Typography tweaks inside hero */
+.intro-hero h2 {
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+}
+
+.intro-hero p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 38rem;
+}
+
+.intro-hero .btn {
+  padding-inline: 1.4rem;
+  padding-block: 0.6rem;
+}
+
+/* Optional: slightly soften list items site-wide */
+.list-group-item {
+  font-size: 0.98rem;
+  line-height: 1.6;
+}

@@ -1,0 +1,28 @@
+export const skills = {
+  proficient: [
+    "JavaScript",
+    "React",
+    "Redux",
+    "Node.js",
+    "Express",
+    "PostgreSQL",
+    "Git",
+    "GitHub",
+    "Postman",
+    "HTML5",
+    "CSS3",
+    "Python",
+    "Java"
+  ],
+  exposure: [
+    "C",
+    "Expo",
+    "TypeScript",
+    "AWS",
+    "MongoDB",
+    "Jasmine",
+    "Material UI",
+    "Tailwind CSS",
+    "Bootstrap"
+  ]
+};
