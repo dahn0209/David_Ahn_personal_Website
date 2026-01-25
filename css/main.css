@@ -43,7 +43,6 @@ body {
   z-index: 1;
 }
 
-/* Typography tweaks inside hero */
 .intro-hero h2 {
   font-size: clamp(2rem, 3vw, 2.5rem);
   font-weight: 700;
@@ -62,7 +61,6 @@ body {
   padding-block: 0.6rem;
 }
 
-/* Optional: slightly soften list items site-wide */
 .list-group-item {
   font-size: 0.98rem;
   line-height: 1.6;
