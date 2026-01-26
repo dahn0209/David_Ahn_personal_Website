@@ -14,7 +14,7 @@ export function renderProjects() {
     article.className = "card h-100";
 
     const body = document.createElement("div");
-    body.className = "card-body";
+    body.className = "card-body text-center d-flex flex-column";
 
     const title = document.createElement("h3");
     title.className = "card-title";
@@ -28,20 +28,10 @@ export function renderProjects() {
     githubBtn.href = project.github;
     githubBtn.target = "_blank";
     githubBtn.rel = "noopener";
-    githubBtn.className = "btn btn-outline-secondary";
+    githubBtn.className = "btn btn-outline-secondary mt-auto align-self-center";
     githubBtn.textContent = "GitHub";
 
-    // Optional website button if you decide to add it
-    if (project.website) {
-      const websiteBtn = document.createElement("a");
-      websiteBtn.href = project.website;
-      websiteBtn.target = "_blank";
-      websiteBtn.rel = "noopener";
-      websiteBtn.className = "btn btn-primary ms-2";
-      websiteBtn.textContent = "Website";
-
-      body.appendChild(websiteBtn);
-    }
+    
 
     body.appendChild(title);
     body.appendChild(desc);
