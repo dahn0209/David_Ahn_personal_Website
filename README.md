@@ -21,7 +21,7 @@ A personal website that showcases my background, projects, and contact informati
 ### About Page
 
 ![Screenshot of About Page](./img/screenshot-about.png)
-![Screenshot of About Page](./img/screenshot-about-2.png.png)
+![Screenshot of About Page](./img/screenshot-about-2.png)
 
 ### Projects Page
 
