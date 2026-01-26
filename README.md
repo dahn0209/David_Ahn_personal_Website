@@ -1,6 +1,6 @@
 # David Ahn – Personal Homepage (Project 1)
 
-A personal website showcasing my background, projects, and contact information using **HTML5, CSS3, Bootstrap 5, and vanilla JavaScript (ES modules)**.
+A personal website that showcases my background, projects, and contact information using **HTML5, CSS3, Bootstrap 5, and vanilla JavaScript (ES modules)**.
 
 ---
 
@@ -98,6 +98,25 @@ The goal of this project is to create a W3C-compliant personal homepage that:
   * ESLint 9 (`eslint.config.mjs`)
   * Prettier
   * Node.js + npm (dev tooling only)
+
+
+
+## Use of Generative AI
+
+This project used  **Visual Studio Code integrated generative AI tools** to assistance especially for the AI-focused page (`ai-page.html`) and for exploring approaches in vanilla JavaScript and Bootstrap.
+
+The generative AI tools were used for:
+
+- The creation and structure of `ai-page.html`.
+- Exploring different **JavaScript methods**, such as array mapping, iteration patterns, and DOM rendering approaches
+- Debugging JavaScript issues and improving code organization
+- Identifying appropriate **Bootstrap 5 layout and form components**, such as spacing, grid usage, and utility classes
+- Inptretating the **Bootstrap documentation** to ensure correct usage
+- Assisting with documentation clarity and formatting.
+
+All generated suggestions were **reviewed, modified, and integrated manually** by the author. The final design decisions, JavaScript logic, Bootstrap implementation, and page content reflect the author’s own understanding and work.
+
+
 
 ---
 
