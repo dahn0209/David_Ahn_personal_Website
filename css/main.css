@@ -1,9 +1,14 @@
 /* Global styles */
 body {
-      margin:50px;
+  margin: 50px;
 
   padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   background-color: #f7f7fa;
   color: #111827;
 }
@@ -16,7 +21,7 @@ body {
 /* Intro section background */
 .intro-hero {
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 
   background-image: url("../img/background_img.jpeg");
   background-size: cover;
@@ -34,7 +39,11 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at top left, rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.8));
+  background: radial-gradient(
+    circle at top left,
+    rgba(15, 23, 42, 0.4),
+    rgba(15, 23, 42, 0.8)
+  );
   opacity: 0.9;
 }
 

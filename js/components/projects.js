@@ -2,10 +2,9 @@ import { projects } from "../data/projects.js";
 
 export function renderProjects() {
   const grid = document.getElementById("projects-grid");
-  if (!grid) return; 
+  if (!grid) return;
 
   projects.map((project) => {
-    
     const col = document.createElement("div");
     col.className = "col-md-6";
 
@@ -29,8 +28,6 @@ export function renderProjects() {
     githubBtn.rel = "noopener";
     githubBtn.className = "btn btn-outline-secondary mt-auto align-self-center";
     githubBtn.textContent = "GitHub";
-
-    
 
     body.appendChild(title);
     body.appendChild(desc);

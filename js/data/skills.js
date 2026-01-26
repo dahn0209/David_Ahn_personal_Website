@@ -12,7 +12,7 @@ export const skills = {
     "HTML5",
     "CSS3",
     "Python",
-    "Java"
+    "Java",
   ],
   exposure: [
     "C",
@@ -23,6 +23,6 @@ export const skills = {
     "Jasmine",
     "Material UI",
     "Tailwind CSS",
-    "Bootstrap"
-  ]
+    "Bootstrap",
+  ],
 };

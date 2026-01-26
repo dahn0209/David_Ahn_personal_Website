@@ -2,7 +2,7 @@ import { courses } from "../data/courses.js";
 
 export function renderCourses() {
   const list = document.getElementById("courses-list");
-  if (!list) return; 
+  if (!list) return;
 
   courses.map((course) => {
     const li = document.createElement("li");

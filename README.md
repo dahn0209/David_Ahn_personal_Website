@@ -6,7 +6,7 @@ A personal website that showcases my background, projects, and contact informati
 
 ## Live Demo
 
-* **GitHub Pages:** [https://dahn0209.github.io/David_Ahn_personal_Website/](https://dahn0209.github.io/David_Ahn_personal_Website/)
+- **GitHub Pages:** [https://dahn0209.github.io/David_Ahn_personal_Website/](https://dahn0209.github.io/David_Ahn_personal_Website/)
 
 ---
 
@@ -38,72 +38,62 @@ A personal website that showcases my background, projects, and contact informati
 
 The goal of this project is to create a W3C-compliant personal homepage that:
 
-* Highlights my **skills, courses, and hobbies**
-* Presents my **full-stack projects** with GitHub links
-* Includes **vanilla JavaScript features**
-* Uses **Bootstrap 5** for responsive layout
-* Includes an **AI-assisted page** explaining my interest in AI and how I used AI tools in this project
+- Highlights my **skills, courses, and hobbies**
+- Presents my **full-stack projects** with GitHub links
+- Includes **vanilla JavaScript features**
+- Uses **Bootstrap 5** for responsive layout
+- Includes an **AI-assisted page** explaining my interest in AI and how I used AI tools in this project
 
 ---
 
 ## Features
 
-* **Responsive Layout**
+- **Responsive Layout**
+  - Built with Bootstrap 5 grid and utility classes
+  - Looks good on desktop, tablet, and mobile
 
-  * Built with Bootstrap 5 grid and utility classes
-  * Looks good on desktop, tablet, and mobile
+- **Data-Driven Content with Vanilla JavaScript**
+  - `Skills & Technologies` rendered from `js/data/skills.js`
+  - `Courses` rendered from `js/data/courses.js`
+  - `Projects` page rendered from `js/data/projects.js`
+  - Uses ES modules (`import/export`) and DOM manipulation
 
-* **Data-Driven Content with Vanilla JavaScript**
+- **Multiple Pages**
+  - `index.html` – intro, skills, courses, hobbies, contact
+  - `about.html` – background, education, interests
+  - `projects.html` – portfolio cards with GitHub links
+  - `ai-page.html` – AI exploration page
 
-  * `Skills & Technologies` rendered from `js/data/skills.js`
-  * `Courses` rendered from `js/data/courses.js`
-  * `Projects` page rendered from `js/data/projects.js`
-  * Uses ES modules (`import/export`) and DOM manipulation
+- **Navigation Highlight**
+  - `js/components/nav.js` highlights the current page in the navbar
 
-* **Multiple Pages**
-
-  * `index.html` – intro, skills, courses, hobbies, contact
-  * `about.html` – background, education, interests
-  * `projects.html` – portfolio cards with GitHub links
-  * `ai-page.html` – AI exploration page
-
-* **Navigation Highlight**
-
-  * `js/components/nav.js` highlights the current page in the navbar
-
-* **Accessibility and Compliance**
-
-  * Semantic HTML (`header`, `footer`, `section`)
-  * `alt` attributes on all images
-  * Passes W3C HTML validation
+- **Accessibility and Compliance**
+  - Semantic HTML (`header`, `footer`, `section`)
+  - `alt` attributes on all images
+  - Passes W3C HTML validation
 
 ---
 
 ## Tech Stack
 
-* **Frontend**
+- **Frontend**
+  - HTML5
+  - CSS3 (`./css/main.css`)
+  - Bootstrap 5
+  - Bootstrap Icons
 
-  * HTML5
-  * CSS3 (`./css/main.css`)
-  * Bootstrap 5
-  * Bootstrap Icons
+- **JavaScript**
+  - Vanilla JS (ES6+)
+  - ES modules for navigation highlighting and data rendering
 
-* **JavaScript**
-
-  * Vanilla JS (ES6+)
-  * ES modules for navigation highlighting and data rendering
-
-* **Tooling**
-
-  * ESLint 9 (`eslint.config.mjs`)
-  * Prettier
-  * Node.js + npm (dev tooling only)
-
-
+- **Tooling**
+  - ESLint 9 (`eslint.config.mjs`)
+  - Prettier
+  - Node.js + npm (dev tooling only)
 
 ## Use of Generative AI
 
-This project used  **Visual Studio Code integrated generative AI tools** to assistance especially for the AI-focused page (`ai-page.html`) and for exploring approaches in vanilla JavaScript and Bootstrap.
+This project used **Visual Studio Code integrated generative AI tools** to assistance especially for the AI-focused page (`ai-page.html`) and for exploring approaches in vanilla JavaScript and Bootstrap.
 
 The generative AI tools were used for:
 
@@ -116,16 +106,14 @@ The generative AI tools were used for:
 
 All generated suggestions were **reviewed, modified, and integrated manually** by the author. The final design decisions, JavaScript logic, Bootstrap implementation, and page content reflect the author’s own understanding and work.
 
-
-
 ---
 
 ## Getting Started
 
 ### Prerequisites
 
-* A modern web browser
-* **Node.js and npm** (required to run a local development server or dev tools)
+- A modern web browser
+- **Node.js and npm** (required to run a local development server or dev tools)
 
 Download Node.js from: [https://nodejs.org/](https://nodejs.org/)
 
@@ -175,4 +163,3 @@ http://localhost:8080
 ```
 
 ---
-

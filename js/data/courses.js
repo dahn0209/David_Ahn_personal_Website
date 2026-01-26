@@ -4,5 +4,5 @@ export const courses = [
   "Data Structures, Algorithms, and Their Applications within Computer Systems",
   "Object-Oriented Design",
   "Discrete Structures",
-  "Intensive Foundations of Computer Science"
+  "Intensive Foundations of Computer Science",
 ];
