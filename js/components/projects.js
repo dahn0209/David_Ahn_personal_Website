@@ -2,14 +2,13 @@ import { projects } from "../data/projects.js";
 
 export function renderProjects() {
   const grid = document.getElementById("projects-grid");
-  if (!grid) return; // Only exists on projects.html
+  if (!grid) return; 
 
   projects.map((project) => {
-    // Column wrapper
+    
     const col = document.createElement("div");
     col.className = "col-md-6";
 
-    // Card
     const article = document.createElement("article");
     article.className = "card h-100";
 
