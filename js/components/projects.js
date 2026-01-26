@@ -4,7 +4,7 @@ export function renderProjects() {
   const grid = document.getElementById("projects-grid");
   if (!grid) return; // Only exists on projects.html
 
-  projects.forEach((project) => {
+  projects.map((project) => {
     // Column wrapper
     const col = document.createElement("div");
     col.className = "col-md-6";

@@ -6,14 +6,14 @@ export function renderSkills() {
 
   if (!proficientList || !exposureList) return;
 
-  skills.proficient.forEach((skill) => {
+  skills.proficient.map((skill) => {
     const li = document.createElement("li");
     li.className = "list-group-item";
     li.textContent = skill;
     proficientList.appendChild(li);
   });
 
-  skills.exposure.forEach((skill) => {
+  skills.exposure.map((skill) => {
     const li = document.createElement("li");
     li.className = "list-group-item";
     li.textContent = skill;

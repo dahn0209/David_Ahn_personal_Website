@@ -4,7 +4,7 @@ export function renderCourses() {
   const list = document.getElementById("courses-list");
   if (!list) return; 
 
-  courses.forEach((course) => {
+  courses.map((course) => {
     const li = document.createElement("li");
     li.className = "list-group-item";
     li.textContent = course;
