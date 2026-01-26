@@ -2,13 +2,22 @@
 
 A personal website that showcases my background, projects, and contact information using **HTML5, CSS3, Bootstrap 5, and vanilla JavaScript (ES modules)**.
 
----
 
 ## Live Demo
 
 - **GitHub Pages:** [https://dahn0209.github.io/David_Ahn_personal_Website/](https://dahn0209.github.io/David_Ahn_personal_Website/)
 
----
+
+## Design Documentation
+
+**Design Document:** [design.md](./design.md)
+
+
+## Demo Video
+
+Watch a walkthrough of the project here:  
+https://youtu.be/XXXXXXXX
+
 
 ## Screenshots
 
@@ -21,7 +30,7 @@ A personal website that showcases my background, projects, and contact informati
 ### About Page
 
 ![Screenshot of About Page](./img/screenshot-about.png)
-![Screenshot of About Page](./img/screenshot-about-2.png)
+![Screenshot of About Page 1](./img/screenshot-about-2.png)
 
 ### Projects Page
 
