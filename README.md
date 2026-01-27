@@ -30,7 +30,7 @@ https://johnguerra.co/classes/webDevelopment_online_spring_2026/
 **Watch a walkthrough of the Personal Homepage here:**  
 https://youtu.be/o6y1pcxpaHA
 
-**2‑Minute Demo Video (Google Slides recording):**
+**3‑Minute Demo Video (Google Slides recording):**
 https://youtu.be/OD_DhSz9vqQ
 
 
