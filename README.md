@@ -5,7 +5,12 @@ A personal website that showcases my background, projects, and contact informati
 
 ## Live Demo
 
-- **GitHub Pages:** [https://dahn0209.github.io/David_Ahn_personal_Website/](https://dahn0209.github.io/David_Ahn_personal_Website/)
+- **GitHub Pages:**  
+  https://dahn0209.github.io/David_Ahn_personal_Website/
+
+- **GitHub Repository:**  
+  https://github.com/dahn0209/David_Ahn_personal_Website
+
 
 
 ## Design Documentation
@@ -15,9 +20,14 @@ A personal website that showcases my background, projects, and contact informati
 
 ## Demo Video
 
-Watch a walkthrough of the project here:  
+**Watch a walkthrough of the project here:**  
 https://youtu.be/XXXXXXXX
 
+**2‑Minute Demo Video (Google Slides recording):**
+https://youtu.be/XXXXXXXX
+
+**Google Slides Presentation:**
+https://docs.google.com/presentation/d/XXXXXXXX
 
 ## Screenshots
 
