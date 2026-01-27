@@ -2,6 +2,13 @@
 
 A personal website that showcases my background, projects, and contact information using **HTML5, CSS3, Bootstrap 5, and vanilla JavaScript (ES modules)**.
 
+## Course Reference
+
+This project was completed as part of the course:
+
+- **Web Development (Spring 2026):**
+https://johnguerra.co/classes/webDevelopment_online_spring_2026/
+
 
 ## Live Demo
 
@@ -20,14 +27,15 @@ A personal website that showcases my background, projects, and contact informati
 
 ## Demo Video
 
-**Watch a walkthrough of the project here:**  
-https://youtu.be/XXXXXXXX
+**Watch a walkthrough of the Personal Homepage here:**  
+https://youtu.be/o6y1pcxpaHA
 
 **2‑Minute Demo Video (Google Slides recording):**
-https://youtu.be/XXXXXXXX
+https://youtu.be/OD_DhSz9vqQ
+
 
 **Google Slides Presentation:**
-https://docs.google.com/presentation/d/XXXXXXXX
+https://docs.google.com/presentation/d/1otb3nkMdZEBiQ4KSGONYfHWncQlEaZdQxGwBXe6KDx4/edit?usp=sharing
 
 ## Screenshots
 
@@ -182,3 +190,5 @@ http://localhost:8080
 ```
 
 ---
+
+**Author:** David Ahn
