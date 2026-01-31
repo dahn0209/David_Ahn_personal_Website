@@ -4,7 +4,7 @@ export function renderProjects() {
   const grid = document.getElementById("projects-grid");
   if (!grid) return;
 
-  projects.map((project) => {
+  projects.forEach((project) => {
     const col = document.createElement("div");
     col.className = "col-md-6";
 
