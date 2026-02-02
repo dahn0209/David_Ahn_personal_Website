@@ -7,8 +7,7 @@ A personal website that showcases my background, projects, and contact informati
 This project was completed as part of the course:
 
 - **Web Development (Spring 2026):**
-https://johnguerra.co/classes/webDevelopment_online_spring_2026/
-
+  https://johnguerra.co/classes/webDevelopment_online_spring_2026/
 
 ## Live Demo
 
@@ -18,12 +17,9 @@ https://johnguerra.co/classes/webDevelopment_online_spring_2026/
 - **GitHub Repository:**  
   https://github.com/dahn0209/David_Ahn_personal_Website
 
-
-
 ## Design Documentation
 
 **Design Document:** [design.md](./design.md)
-
 
 ## Demo Video
 
@@ -32,7 +28,6 @@ https://youtu.be/o6y1pcxpaHA
 
 **3‑Minute Demo Video (Google Slides recording):**
 https://youtu.be/OD_DhSz9vqQ
-
 
 **Google Slides Presentation:**
 https://docs.google.com/presentation/d/1otb3nkMdZEBiQ4KSGONYfHWncQlEaZdQxGwBXe6KDx4/edit?usp=sharing
