@@ -12,10 +12,10 @@ This project was completed as part of the course:
 ## Live Demo
 
 - **GitHub Pages:**  
-  https://dahn0209.github.io/David_Ahn_personal_Website/
+  https://dahn0209.github.io/David_Ahn_Portfolio/
 
 - **GitHub Repository:**  
-  https://github.com/dahn0209/David_Ahn_personal_Website
+  https://github.com/dahn0209/David_Ahn_Portfolio
 
 ## Design Documentation
 
