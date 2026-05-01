@@ -29,9 +29,21 @@ export function renderProjects() {
     githubBtn.className = "btn btn-outline-secondary mt-auto align-self-center";
     githubBtn.textContent = "GitHub";
 
-    body.appendChild(title);
-    body.appendChild(desc);
-    body.appendChild(githubBtn);
+body.appendChild(title);
+body.appendChild(desc);
+body.appendChild(githubBtn);
+
+if (project.live) {
+  const liveBtn = document.createElement("a");
+  liveBtn.href = project.live;
+  liveBtn.target = "_blank";
+  liveBtn.rel = "noopener";
+  liveBtn.className = "btn btn-outline-primary mt-2 align-self-center";
+  liveBtn.textContent = "Live Demo";
+
+  body.appendChild(liveBtn);
+}
+
 
     article.appendChild(body);
     col.appendChild(article);
